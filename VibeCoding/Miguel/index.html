@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Truja Company - Alfajores Rasta</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark text-light">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark bg-success px-3">
+    <a class="navbar-brand fw-bold text-warning" href="#">Truja Company</a>
+  </nav>
+
+  <!-- Hero -->
+  <section class="container text-center py-5">
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h1 class="display-4 fw-bold">Alfajores <span class="text-warning">Rasta</span></h1>
+        <p class="lead">El sabor que te salva en caso de <strong>BAJÓN</strong> 🍫</p>
+        <button class="btn btn-warning btn-lg mt-3" onclick="scrollToSection('precios')">
+          Ver Precios
+        </button>
+      </div>
+      <div class="col-lg-6">
+        <img src="./assets/rasta.png" alt="Alfajor Rasta" class="img-fluid rounded shadow">
+      </div>
+    </div>
+  </section>
+
+  <!-- Precios -->
+  <section id="precios" class="container py-5">
+    <h2 class="text-center mb-4 text-warning">Precios</h2>
+    <div class="row g-4">
+      <div class="col-md-3">
+        <div class="card text-center bg-dark text-light border-warning h-100">
+          <div class="card-body">
+            <h5 class="card-title">1 Rasta</h5>
+            <p class="card-text display-6 text-warning">$1200</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center bg-dark text-light border-success h-100">
+          <div class="card-body">
+            <h5 class="card-title">Combo Rasta + Coca 500ml</h5>
+            <p class="card-text display-6 text-warning">$3100</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center bg-dark text-light border-warning h-100">
+          <div class="card-body">
+            <h5 class="card-title">Coca 500ml</h5>
+            <p class="card-text display-6 text-warning">$2500</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center bg-success text-warning border-light h-100">
+          <div class="card-body">
+            <h5 class="card-title">Promo</h5>
+            <p class="card-text fs-5">Llevando 3 Rastas<br><strong>¡Te regalamos 1!</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-center py-3 mt-5">
+    <p class="mb-1">© 2025 Truja Company</p>
+    <p class="mb-0">Síguenos en <a href="https://instagram.com/" target="_blank" class="text-warning fw-bold">Instagram</a></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
